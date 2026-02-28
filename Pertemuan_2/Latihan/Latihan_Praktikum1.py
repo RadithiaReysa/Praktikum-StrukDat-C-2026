@@ -6,7 +6,7 @@ print(stok)
 stok.insert(2,75)
 print(stok)
 #3. Urutkan list tersebut dari yang terbesar ke terkecil.
-stok.sort()
+stok.sort(reverse=True)
 print(stok)
 #4. Hitunglah nilai rata-rata dari seluruh stok tersebut.
 rata_rata = sum(stok)/len(stok)
